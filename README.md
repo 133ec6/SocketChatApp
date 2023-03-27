@@ -5,5 +5,5 @@ To run app :-
 . command npm i
 . command node index.js
 
-Go to browser and open localhost:3000
+Go to browser and open localhost:3000 ("Use Microspft Edge for better experience")
 Open differnet instances of same link to test app
