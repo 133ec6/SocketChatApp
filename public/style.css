@@ -63,6 +63,10 @@ body {
     clear: both;
 }
 
+.center{
+    text-align: center;
+}
+
 .container {
     max-width: 955px;
     /* background-color: wheat; */
