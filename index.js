@@ -17,7 +17,6 @@ app.get('/', (req, res) => {
 io.on('connection', (socket) => {
     socket.on('new-user-joined', (name) => {
         const sid = socket.id;
-        // console.log(sid);
         users[sid] = name;
         socket.broadcast.emit('new-user-joined', name);
     });
